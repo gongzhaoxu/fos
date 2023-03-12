@@ -26,7 +26,7 @@ void over() {
 }
 int main() {
 	Menu::debug(false);
-	format(false);
+	format(true);
 	init();
 	Menu::start();
 	over();
